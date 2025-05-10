@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="A secure password generator tool">
+    <meta name="keywords" content="password generator, secure password, random password">
+    <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <nav class="navbar">
+        <div class="theme-switch">
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+            <span class="theme-text">Dark</span>
+        </div>
+        <div class="nav-brand">Password Generator</div>
+    </nav>
+    <div class="container">
         <label>password length: <input type="number" min="4" max="15" value="12" id="length"></label> 
         <label><input type="checkbox" id="uppercase" checked >include uppercase</label>
         <label><input type="checkbox" id="numbers" checked >include numbers</label>
