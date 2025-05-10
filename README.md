@@ -9,6 +9,9 @@ A simple and secure password generator web application that allows users to crea
 - Option to include/exclude numbers
 - Option to include/exclude lowercase letters
 - Simple and intuitive user interface
+- Dark/Light mode toggle
+- Responsive design for all screen sizes
+- Theme preference persistence (saves your theme choice)
 
 ## How to Use
 
@@ -16,13 +19,14 @@ A simple and secure password generator web application that allows users to crea
 2. Set your desired password length (4-15 characters)
 3. Choose which character types to include
 4. Click "Generate Password" to create a new password
+5. Toggle between dark and light mode using the switch in the top-right corner
 
-## Deployment
+## UI Features
 
-This is a static website that can be deployed on any static hosting service like:
-- GitHub Pages
-- Netlify
-- Vercel
-- Firebase Hosting
+- Clean and modern interface
+- Fixed navigation bar with centered title
+- Compact dark mode toggle
+- Smooth theme transitions
+- Responsive layout that works on mobile devices
+- Persistent theme preference (saves your choice)
 
-Simply upload all files (index.html, style.css, and app.js) to your chosen hosting platform. 
